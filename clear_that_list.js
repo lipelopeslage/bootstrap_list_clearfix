@@ -1,5 +1,5 @@
 function treatColumns(){
-		var total = 12, i;
+		var total = 12, i, winW = $(window).width();
 		
 		function columns(num, col){
 			$("ul, ol").each(function(){
